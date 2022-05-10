@@ -69,3 +69,9 @@ let letras = ['a','b','c']
 console.log(letras.indexOf('a')) //Va a devolver 0 (Indica el indice en donde esta el elemento)
 console.log(letras.indexOf('b')) //Va a devolver 2 (Indica el indice en donde esta el elemento)
 console.log(letras.indexOf('f')) //Va a devolver -1 (Indica que el elemento no se encuentra en el array)
+
+// Ej para practicar:
+// 1) Escribir un array con la cantidad de valores que quiera
+// 2) En una variable, asignar el valor de un elemento que este en el array
+// 3) Escribir un codigo que elimine ese elemento (el de la variable) del array
+
