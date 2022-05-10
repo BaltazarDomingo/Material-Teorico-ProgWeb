@@ -7,9 +7,30 @@
 <body>
 
 <script>
-  document.write('La web de Steve');
   console.log("No deberias leer esto")
+
+let primer_numero
+let segundo_numero
+let operacion
+primer_numero = parseInt(prompt("Ingrese un numero para operar"))
+segundo_numero = parseInt(prompt("Ingrese otro numero para operar"))
+operacion = prompt("Ingrese Operacion")
+let sumar
+let restar
+let multiplicar
+let dividir
+sumar = primer_numero + segundo_numero
+restar = primer_numero - segundo_numero
+multiplicar = primer_numero*segundo_numero
+dividir = primer_numero/segundo_numero
+if(operacion = "sumar"){document.write(sumar)}
+if(operacion = "restar"){document.write(restar)}
+if(operacion = "multiplicar"){document.write(multiplicar)}
+if(operacion = "dividir"){document.write(dividir)}
+
+
 </script>
+
 
 </body>
 
